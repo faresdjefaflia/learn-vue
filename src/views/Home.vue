@@ -1,3 +1,14 @@
 <template>
-  <h1> hello from home </h1>
+  <h1> HELLO FROM "HOME"</h1>
+  <Hometxt />
 </template>
+
+
+<script>
+import Hometxt from '../components/home/Home-txt';
+export default {
+  components:{
+    Hometxt,
+  }
+}
+</script>

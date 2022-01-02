@@ -8,6 +8,7 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
+
 export default {
   components:{
     Navbar,
@@ -18,5 +19,15 @@ export default {
 
 
 <style>
-  @import './assets/style.css';
+  /* FOR IMPORT CSS FILE */
+  @import './assets/css/style.css';
+  
+  .txt p{
+    text-align: left;
+    width: 320px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
 </style>

@@ -1,14 +1,14 @@
 <template>
-  <div id="nav" class="2">
+  <header id="nav">
     <div class="logo">
       <img src="../assets/logo.svg">
     </div>
     <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/about">About</router-link></li>
-      <li><router-link to="/contact">contact</router-link></li>
+      <li><router-link to="/">HOME</router-link></li>
+      <li><router-link to="/about">ABOUT</router-link></li>
+      <li><router-link to="/contact">CONTACT</router-link></li>
     </ul>
-  </div>
+  </header>
   <router-view/>
 </template>
 
@@ -31,6 +31,7 @@ export default {
   ul{
     list-style: none;
     display: flex;
+    border-bottom: solid 1px #2c3e50;
   }
   li{
     padding:10px;
@@ -42,6 +43,7 @@ export default {
   #nav a {
     font-weight: bold;
     color: #2c3e50;
+    text-decoration: none;
   }
 
   #nav a.router-link-exact-active {

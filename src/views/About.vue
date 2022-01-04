@@ -10,6 +10,10 @@
         <Props name="fares4" age="23"/>
         <Props name="fares5" age="23"/>
       </div>
+      <div class="date">
+        <p>{{day}} {{date}}</p>
+        
+      </div>
   </div>
 </template>
 
@@ -21,7 +25,13 @@ export default {
   components:{
     Aboutetxt,
     Props,
-  }
+  },
+  data() {
+    return {
+      day:'M',
+      date:'jan  3 2022',
+    }
+  },
 }
 </script>
 

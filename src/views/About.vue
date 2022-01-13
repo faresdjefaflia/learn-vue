@@ -12,7 +12,6 @@
       </div>
       <div class="date">
         <p>{{day}} {{date}}</p>
-        
       </div>
   </div>
 </template>
